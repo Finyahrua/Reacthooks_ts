@@ -30,7 +30,7 @@ const CounterReducer = (state: typeof initialState, action: ACTION_tYPES) => {
 };
 
 const UseReducer = () => {
-    const [state, dispatch] = useReducer(CounterReducer, initialState);
+  const [state, dispatch] = useReducer(CounterReducer, initialState);
   return (
     <div
       style={{
@@ -53,8 +53,8 @@ const UseReducer = () => {
           }
         >
           INCREMENT
-        </button>{" "}
-        ||{" "}
+        </button>
+        ||
         <button
           onClick={() =>
             dispatch({
